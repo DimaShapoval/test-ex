@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "imask": "^6.6.1",
+    "mask-input": "^1.0.3"
+  }
+}

@@ -1,0 +1,103 @@
+body, html{
+    width: 100%;
+    margin: 0;
+}
+:root{
+    --true-modal-bg: #04AA6D;
+    --error-modal-bg: rgb(182, 3, 3);
+}
+
+#randomTrue .modal-dialog .modal-content{ 
+    background-color: var(--true-modal-bg);
+    color: #FFFF;
+}
+#errorModal .modal-dialog .modal-content{ 
+    background-color: var(--error-modal-bg);
+    color: #FFFF;
+}
+.modal-avatar{
+    border-radius: 80px;
+}
+.modal-header-text{
+    font-weight: 700;
+}
+@media screen and (max-width: 622px) {
+    .table-striped{
+        width: 100% !important;
+    }
+    .personal-button{
+        width: 80px ;
+        font-size: 12px;
+        padding: 0;
+    }
+    .table-item td{
+        font-size: 12px;
+    }
+    th{
+        font-size: 13px;
+    }
+    
+    .avatar{
+        width: 30px;
+    }
+    #random-user{
+        width: 50%;
+        font-size: 16px;
+    }
+    #create-customer{
+        width: 50%;
+        font-size: 16px;
+    }
+    .container .col-lg-3{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .modal-avatar-wrapper{
+        margin-right: 3rem;
+    }
+    
+    
+}
+@media screen and (max-width: 530px){
+    #random-user{
+        width: 65%;
+    }
+    #create-customer{
+        width: 65%;
+    }
+    .avatar-choose-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .avatar-choose-wrapper button{
+        width: 120px;
+        margin-bottom: 20px;
+    }
+    
+    
+}
+@media screen and (max-width: 450px){
+    .my-5{
+        display: flex;
+        flex-direction: column;
+    }
+    .my-5 .col-lg-3{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #random-user{
+        width: 100%;
+    }
+    #create-customer{
+        width: 100%;
+    }
+    p{
+        font-size: 13px;
+    }
+    .modal-avatar-wrapper{
+        margin-right: 1.5rem;
+    }
+    
+}
